@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+a {
+	color:#ee7f01;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#ee7f01;
+	text-decoration:underline;
+}
+
+input, select {
+	background-color:#fff;
+	border:1px solid  silver;
+	border-radius:5px;
+	padding:0 5px;
+	/*font-size:100%;*/
+}
+
+.clear {
+	clear:both;	
+}
+
+.error{
+	color:red;
+	font-weight:bold;
+}
+
+.message {
+	color:blue;
+	font-weight:bold;
+}
+
+.delete {
+	color:red;
+	font-weight:bold;
+}
+
+.inputbox, .selectbox{padding:2px;min-width:200px;}
+
+#main-wrapper{min-height:480px;}
+.check-button-0{background:url("../../../images/publish_x.png") no-repeat;display:inline-block;text-indent:-9999px;height:16px;width:16px;}
+
+.check-button-1{background:url("../../../images/tick.png") no-repeat;display:inline-block;text-indent:-9999px;height:16px;width:16px;}
+
+.no-link{cursor:default;}
+
+.table .row1 {
+	background-color:white;
+}
+
+.table .row2 {
+	background-color:#f0f0f0;
+}
+
+.table .row div{
+	float:left;padding:10px 0px;position:relative;overflow:hidden;
+}
+
+.table .row div span{
+	padding:0px 2px;;
+}
+
+.form #column1{float:left;}
+
+.form #column2{float:right;}
+
+.form #column3{}
+
+.form .cols-2{width:46%;margin-left:2%;}
+
+.form .cols-2 .inputbox {width:200px;}
+
+.form .cols-2 .selectbox {width:210px;}
+
+.form .cols-2 p {line-height:20px;}
+
+#pagination {float:left;margin-top:20px;}
+
+#pagination a, #pagination span {display:inline-block;font-weight:bold;font-size:16px;margin:0 1px;padding:0 5px;}
+
+.form-button {margin:20px 0;}
+
+.form-button span{margin:0 5px;}
+
+fieldset {border-radius:5px; padding:10px;margin:10px 0;}
+div.form .inputbox {float:right; width:250px;}
+label.error{display:block;font-size:9px;}
+
+/*	********* End Content Table **************** */
+.table tr:hover {background-color:pink;}
+.table th {padding:7px 0;font-size:14px;text-transform:uppercase;}
+.table td {padding:5px;}
+table.table{margin:0 0 20px 0;}
+
+table.form tr td{padding:3px 0;}

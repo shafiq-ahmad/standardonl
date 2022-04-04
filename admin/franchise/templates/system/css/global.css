@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+}
+
+a {
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+ul.menu {
+	list-style-type:none;
+	padding:0;margin:0;
+}
+
+.cleaner {
+	clear:both;	
+}
+
+.error{
+	color:red;
+	font-weight:bold;
+}
+
+.message {
+	color:blue;
+	font-weight:bold;
+}
+
+.delete {
+	color:red;
+	font-weight:bold;
+}
+
+div.item {
+	padding-bottom:8px;
+		
+}
+
+div.item b {
+	color:#ee7f01;
+}
+
+ul.menu ul {
+	display:none;
+	left:76px;
+	position:absolute;
+}
+
+ul.menu li:hover ul {
+	display:block;
+}
+
+#logout{
+	float:right;
+}
+#logout ul{
+	list-style-type:none;
+}
+
+#logout ul li{
+	float:left;
+	padding:0 10px;
+}
+
+input, select {
+	background-color:#fff;
+	border:1px solid  silver;
+	border-radius:5px;
+	/*font-size:100%;*/
+}
+fieldset {border-radius:5px; padding:5px;}
+/*	**********************************************
+*************** Content Table ********************
+************************************************ */
+
+.check-button-0{background:url("../../../../../images/publish_x.png") no-repeat;display:inline-block;text-indent:-9999px;height:16px;width:16px;}
+
+.check-button-1{background:url("../../../../../images/tick.png") no-repeat;display:inline-block;text-indent:-9999px;height:16px;width:16px;}
+
+#frm-ch-password {width:300px;}
+
+#content-wrapper .table {width:100%;}
+
+#old-pass, #new-pass, #confirm-pass, .form-field {
+	float:right;
+	margin:0;
+	min-width:145px;
+	width:210px;
+}
+
+.no-link{cursor:default;}
+
+div.table  {
+	overflow:hidden;
+	position:relative;
+}
+
+
+
+.form {}
+
+.form .column{}
+
+.form #column1{float:left;}
+
+.form #column2{float:right;}
+
+.form #column3{}
+
+.form .cols-2{width:46%;margin-left:2%;}
+
+.form .cols-2 {width:46%;margin-right:2%;}
+
+.form .cols-2 .inputbox {width:210px;float:right;}
+
+.form .cols-2 p {}
+
+#pagination {float:left;margin-top:20px;}
+
+#pagination a, #pagination span {display:inline-block;font-weight:bold;font-size:16px;margin:0 1px;padding:0 5px;}
+
+#main-wrapper {width:100%;}
+
+/*	********* End Content Table **************** */
+
+.table tr:hover {background-color:pink;}
+.table th {padding:7px 0;font-size:14px;text-transform:uppercase;text-align:left;}
+.table td {padding:5px;}
+table.table{margin:0 0 20px 0;}
+
